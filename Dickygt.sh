@@ -91,7 +91,7 @@ pkg install git -y
 pkg install python2 -y
 git clone https://github.com/FR13ND8/BRUTEFORCEnew
 cd BRUTEFORCEnew
-badh new.sh
+sh new.sh
 fi
 
 if [ $pil = 2 ]
@@ -115,6 +115,7 @@ then
 clear
 git clone https://github.com/zlucifer/termux_alice
 cd termux_alice
+sh alice.sh
 fi
 
 if [ $pil = 5 ]
