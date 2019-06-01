@@ -123,7 +123,7 @@ then
 clear
 git clone https://github.com/zlucifer/paladin_project
 cd paladin_project
-bash,paladin.sh
+sh paladin.sh
 fi
 
 if [ $pil = 6 ]
