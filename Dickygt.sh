@@ -91,7 +91,7 @@ pkg install git -y
 pkg install python2 -y
 git clone https://github.com/FR13ND8/BRUTEFORCEnew
 cd BRUTEFORCEnew
-bash new.sh
+sh new.sh
 fi
 
 if [ $pil = 2 ]
